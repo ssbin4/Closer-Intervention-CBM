@@ -1,0 +1,25 @@
+*pkl
+*out
+.ipynb_checkpoints/
+*pyc
+.idea/
+wandb/
+CUB_200_2011/
+CUB_processed/
+PredConcepts/
+__pycache__/
+.vscode/
+output/
+model/
+scripts/
+*.sh
+*.out
+*.txt
+data/
+*.pth
+.vscode
+graph
+
+# Remove later
+SKINCON/
+SYNTHETIC/
