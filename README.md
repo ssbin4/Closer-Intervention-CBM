@@ -1,6 +1,6 @@
 # A Closer Look at the Intervention Procedure of Concept Bottleneck Models
 
-This repository contains source code for arXiv paper "A Closer Look at the Intervention Procedure of Concept Bottleneck Models" by Sungbin Shin, Yohan Jo, Sungsoo Ahn, and Namhoon Lee.
+This repository contains source code for arXiv paper [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://arxiv.org/abs/2302.14260) by Sungbin Shin, Yohan Jo, Sungsoo Ahn, and Namhoon Lee.
 
 Our experiments are based on the following three datasets.
 
@@ -24,7 +24,7 @@ We verify our findings through comprehensive evaluations, not only on the standa
 We further discover some major pitfalls of the current practices which, without a proper addressing, raise concerns on reliability and fairness of the intervention procedure.
 
 
-|      ![fig](./figures/cub_individual_independent.png)    |  ![fig](./figures/skincon_individual_independent.png)   |  ![fig](./figures/synthetic_individual_independent.png)     |
+|      ![fig](./figures/cub_main_result.png)    |  ![fig](./figures/skincon_main_result.png)   |  ![fig](./figures/synthetic_main_result.png)     |
 |:--------------:|:----------:|:----------------------:|
 | CUB | SkinCon | Synthetic |
 
