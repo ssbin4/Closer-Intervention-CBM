@@ -1,15 +1,12 @@
 # A Closer Look at the Intervention Procedure of Concept Bottleneck Models
 
-This repository contains source code for arXiv paper [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://arxiv.org/abs/2302.14260) by Sungbin Shin, Yohan Jo, Sungsoo Ahn, and Namhoon Lee.
+This repository contains source code for ICML 2023 paper [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://arxiv.org/abs/2302.14260) by Sungbin Shin, Yohan Jo, Sungsoo Ahn, and Namhoon Lee.
 
 Our experiments are based on the following three datasets.
 
 - [Caltech-UCSD Birds-200-2011 (CUB-200-2011)](https://www.vision.caltech.edu/datasets/cub_200_2011/)
 - [SKIN Concepts Dataset (SkinCon)](https://skincon-dataset.github.io/)
 - Synthetic
-
-As of now, the repository only contains the code for the CUB dataset.
-We will release the code for other datasets as soon as possible.
 
 ## TL;DR
 We develop various ways of selecting intervening concepts to improve the intervention effectiveness and conduct an array of in-depth analyses as to how they evolve under different circumstances.
@@ -37,3 +34,14 @@ pip install -r requirements.txt
 
 ## Usage
 See the readme file of each folder to check how to preprocess the dataset, train the models, and conduct test-time interventions.
+
+## Citation
+
+```
+@ainproceedings{shin2023closer,
+  title={A Closer Look at the Intervention Procedure of Concept Bottleneck Models}, 
+  author={Shin, Sungbin and Jo, Yohan and Ahn, Sungsoo and Lee, Namhoon},
+  year={2023},
+  journal={ICML}
+}
+```

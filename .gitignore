@@ -19,7 +19,4 @@ data/
 *.pth
 .vscode
 graph
-
-# Remove later
-SKINCON/
-SYNTHETIC/
+pretrained/

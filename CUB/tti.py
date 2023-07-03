@@ -654,8 +654,6 @@ if __name__ == '__main__':
         err_list.append(err_values)
         incorrect_0_err_list.append(incorrect_0_values)
 
-    output_string = ''
-
     err_mean = np.array(err_list).mean(axis=0)
     err_std = np.array(err_list).std(axis=0)
 
