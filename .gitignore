@@ -15,6 +15,7 @@ scripts/
 *.sh
 *.out
 *.txt
+!requirements.txt
 data/
 *.pth
 .vscode
